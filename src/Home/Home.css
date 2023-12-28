@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    height: 100%;
+    
+    /* align-items: center;
+    justify-content: center; */
+}
+.home .container{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2rem;
+    /* justify-content: center; */
+    padding: 20px;
+    margin-top: 5vh;
+    margin-left: 10vw;
+
+}
+.home .left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* width: 50vw; */
+    /* position: fixed; */
+    position: relative;
+    top: -5vh;
+    margin-left: -6vw;
+
+}
+.home p{
+    font-size: x-large;
+    width: 35vw;
+}
+.home button{
+    padding: 20px;
+    font-size: 20px;
+    background-color: #EC5863;
+    width: 12vw;
+    border-radius: 1rem;
+    color: white;
+}
+.home .right{
+    /* flex: 1; */
+    background-color: #EC5863;
+    height: 90vh;
+    position: relative;
+    top: -12vh;
+    right: -1vw;
+    /* width: 10vw; */
+    width: 30vw;
+    border-radius: 0rem 0rem 0rem 2rem;
+   
+}
+
+.home img{
+    height: 60vh;
+    width: 75vh;
+    position: absolute;
+    top: 15vh;
+    right: 15vw;
+}
+.home h1{
+    width: 40vw;
+    font-size: 70px;
+}
+.home .h{
+    border-radius: 50%;
+    height: 5vh;
+    width: 5vh;
+    text-align: center;
+    
+}
+.home .stay{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    position: relative;
+    top: 0vh;
+    margin-top: 20vh;
+}
+.home .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

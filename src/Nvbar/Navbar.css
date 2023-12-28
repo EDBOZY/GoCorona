@@ -1,0 +1,76 @@
+/* Navbar.css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 20px; */
+    background-color: #333;
+    color: white;
+    height: 10vh;
+    padding: 20px;
+    background-color: transparent;
+  }
+  
+  .navbar-logo img {
+    height: 40px; /* Set your logo height */
+    width: auto;
+  }
+  
+  .navbar-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-links a {
+    color:black;
+    text-decoration: none;
+    font-size: large;
+    /* font-weight: bold; */
+  }
+  
+  .navbar-download button {
+    background-color: #4285F4;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+    width: 10vw;
+    position: relative;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-download{
+    position: relative;
+    right: -1vw;
+    width: 30vw;
+    top: -2vh;
+    border-radius: 2rem 0rem 0rem 0rem;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+  

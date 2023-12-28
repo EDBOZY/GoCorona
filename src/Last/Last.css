@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10vh;
+    /* margin-bottom: -100vh; */
+
+}
+.last .h{
+    text-align: center;
+    font-size: 60px;
+
+}
+.last .hp{
+    text-align: center;
+    width: 40vw;
+}
+.last .container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.last .boxex{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+.last .box{
+    height: 40vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 20px;
+    z-index: 999;
+    background-color: white;
+}
+.last .box img{
+    height: 10vh;
+    width: 10vh;
+    
+}
+.last .images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 20px;
+    margin-top: 20px;
+}
+.last .aa{
+    height: 10vh;
+    width: 12vw;
+}
+.last .a{
+    height:9vh;
+    width: 12vw;
+}
+.last .rectangle{
+    background-color: red;
+    border-radius: 1rem;
+}
+.last .small{
+    height: 10vh;
+    width: 10vh;
+    
+}
+.one{
+    position: absolute;
+    top: 410vh;
+    left: 9vw;
+    rotate: -20deg;
+}
+.two{
+    position: absolute;
+    top: 366vh;
+    left: 85vw;
+    rotate: 60deg;
+}
+.medium{
+    height: 15vh;width: 15vh;
+    position: absolute;
+    top: 380vh;
+    left: 29vw;
+    rotate: 25deg;
+}
+.large{
+    position: absolute;
+    height: 20vh;
+    width: 20vh;
+    left: 57vw;
+    top: 396vh;
+    rotate: 45deg;
+    border-radius: 4rem;
+}
